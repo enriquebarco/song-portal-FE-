@@ -1,10 +1,10 @@
 import * as React from "react";
 import { ethers } from "ethers";
-import './App.css';
+import './App.scss';
 
 export default function App() {
 
-  const wave = () => {
+  const song = () => {
     
   }
   
@@ -13,15 +13,16 @@ export default function App() {
 
       <div className="dataContainer">
         <div className="header">
-        👋 Hey there!
+        🎸 Welcome to Song Portal 🎵
         </div>
 
         <div className="bio">
-        I am farza and I worked on self-driving cars so that's pretty cool right? Connect your Ethereum wallet and wave at me!
+        You've just landed on a decentralized application that allows you to share your favorite music using the blockchain! <strong>Connect your Ethereum wallet to post a song!</strong> 
+
         </div>
 
-        <button className="waveButton" onClick={wave}>
-          Wave at Me
+        <button className="waveButton" onClick={song}>
+          Post a Song 
         </button>
       </div>
     </div>
