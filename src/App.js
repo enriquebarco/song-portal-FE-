@@ -21,7 +21,7 @@ export default function App() {
 
         </div>
 
-        <button className="waveButton" onClick={song}>
+        <button className="songButton" onClick={song}>
           Post a Song 
         </button>
       </div>
